@@ -9,6 +9,28 @@ npm start
 
 Para el backend se utilizó visual studio 2022.
 
+Este es el script de sql server para crear las tablas:
+
+CREATE DATABASE centralfile;
+
+CREATE TABLE Usuario_Contacto (
+    ID INT PRIMARY KEY IDENTITY,
+    ID_usuario INT,
+    ID_contacto INT,
+    FOREIGN KEY (ID_usuario) REFERENCES Usuarios(ID),
+    FOREIGN KEY (ID_contacto) REFERENCES Usuarios(ID)
+);
+
+
+CREATE TABLE Usuarios (
+    ID INT PRIMARY KEY IDENTITY,
+    NombreUsuario VARCHAR(100),
+    Clave VARCHAR(100),
+	Nombre VARCHAR(100),
+    Telefono VARCHAR(20),
+    Direccion VARCHAR(200),
+);
+
 ###  ¿Cómo decidió las opciones técnicas y arquitectónicas utilizadas como parte de su solución? 
 Analizando como sería la mejor forma de llevar a cabo una funcionalidad.\
 Se utilizó redux para guardar el estado del nombre del usuario y acceder a él en varios componentes lo cual
