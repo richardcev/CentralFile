@@ -9,6 +9,11 @@ npm start
 
 Para el backend se utilizó visual studio 2022.
 
+Se debe instalar en los paquetes nugets:
+
+![image](https://github.com/richardcev/CentralFile/assets/72895663/f7cf56ea-48a4-42a8-b36b-6b6e78090cf5)
+
+
 Este es el script de sql server para crear las tablas:
 
 CREATE DATABASE centralfile;
