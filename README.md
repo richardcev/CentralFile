@@ -2,8 +2,8 @@
 
 ###  Instrucciones
 Comandos react: .\
-npm install.\
-npm start .\
+npm install\
+npm start\
 
 Para el backend se utilizó visual studio 2022.
 
