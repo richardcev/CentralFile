@@ -1,0 +1,23 @@
+.register-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-form-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .register-form-login {
+    float: right;
+  }
+  
+  .register-form-login:hover {
+    color: #1890ff;
+  }
+  

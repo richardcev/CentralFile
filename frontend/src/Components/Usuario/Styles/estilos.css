@@ -1,0 +1,36 @@
+.user-item {
+    padding: 16px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .user-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .user-list-container {
+    max-width: 400px; 
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+  
+  .update-info-container{
+    max-width: 30%; 
+    margin: 0 auto;
+    margin-top: 3%;
+
+  }
+
+  .contacto{
+    font-size: 18px;
+  }
+
+  .acciones{
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .bienvenido{
+    text-align: center;
+  }
+  
+  
