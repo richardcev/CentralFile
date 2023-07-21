@@ -1,6 +1,13 @@
 # CentralFile
 
-##  ¿Cómo decidió las opciones técnicas y arquitectónicas utilizadas como parte de su solución? 
+###  Instrucciones
+Comandos react: .\
+npm install.\
+npm start.\
+
+Para el backend se utilizó visual studio 2022.
+
+###  ¿Cómo decidió las opciones técnicas y arquitectónicas utilizadas como parte de su solución? 
 Analizando como sería la mejor forma de llevar a cabo una funcionalidad.\
 Se utilizó redux para guardar el estado del nombre del usuario y acceder a él en varios componentes lo cual
 sirve para realizar las diferentes peticiones al servidor que necesitaban del nombre de usuario.\
@@ -12,8 +19,8 @@ un usuario. En el backend se utilizó un proyecto de web api para realizar los e
 UsuarioController se encuentran todos los endpoints.
 
 
-## ¿Hay alguna mejora que pueda hacer en su envío? 
+### ¿Hay alguna mejora que pueda hacer en su envío? 
 Que se pueda seleccionar el número de usuarios que se quiera mostrar.
 
-## ¿Qué haría de manera diferente si se le asignara más tiempo?
+### ¿Qué haría de manera diferente si se le asignara más tiempo?
 Utilizaría la autenticación de usuarios ya sea con sesiones o jwt.
