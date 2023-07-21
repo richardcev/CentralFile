@@ -1,9 +1,11 @@
 # CentralFile
 
 ###  Instrucciones
-Comandos react: .\
-npm install\
-npm start\
+Comandos react:
+
+npm install
+
+npm start
 
 Para el backend se utilizó visual studio 2022.
 
